@@ -12,3 +12,5 @@
 - [x] Verify the refined outfit visuals, mobile layout, and existing WhatsApp fitting flow, then push the update to GitHub.
 - [x] Fix production image delivery on https://firoz-tailor.vercel.app/ so all outfit and hero images render.
 - [x] Verify production image loading and push the fix to the Firoz Tailor GitHub repository.
+- [ ] Replace mismatched garment photos with exact clothing matches for sherwani, suit, waistcoat, kurta, linen shirt, and bandhgala.
+- [ ] Verify the corrected garment images on production and push the update to GitHub.
