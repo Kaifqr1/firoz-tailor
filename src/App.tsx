@@ -5,12 +5,12 @@ import { buildWhatsAppUrl } from "./order";
 const WHATSAPP = "917039081439";
 
 const garments = [
-  { id: "bandhgala", name: "The Bandhgala", type: "Signature tailoring", price: "From ₹1,899", image: "/manus-storage/firoz-tailor-bandhgala_6429700d.jpg", tone: "Obsidian wool · tonal satin lapel" },
-  { id: "kurta", name: "The Ivory Kurta", type: "Everyday occasion", price: "From ₹999", image: "/manus-storage/firoz-tailor-relaxed-kurta_b484d4cf.png", tone: "Textured cotton · relaxed collar" },
-  { id: "linen", name: "The Linen Shirt", type: "Quiet essentials", price: "From ₹799", image: "/manus-storage/firoz-tailor-fitting_55868081.jpg", tone: "European linen · soft sand" },
-  { id: "sherwani", name: "The Emerald Sherwani", type: "Ceremonial edit", price: "From ₹2,499", image: "/manus-storage/firoz-tailor-sherwani_1c78232e.jpg", tone: "Woven jacquard · deep emerald" },
-  { id: "evening-suit", name: "The Evening Suit", type: "Formal tailoring", price: "From ₹2,899", image: "/manus-storage/firoz-tailor-formal-suit_5b1475a1.png", tone: "Midnight wool · soft ivory shirt" },
-  { id: "olive-waistcoat", name: "The Olive Waistcoat", type: "Occasion layer", price: "From ₹1,499", image: "/manus-storage/firoz-tailor-waistcoat_3dfeab5b.png", tone: "Deep olive wool · matte horn buttons" },
+  { id: "bandhgala", name: "The Bandhgala", type: "Signature tailoring", price: "From ₹1,899", image: "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=1200&q=85", tone: "Obsidian wool · tonal satin lapel" },
+  { id: "kurta", name: "The Ivory Kurta", type: "Everyday occasion", price: "From ₹999", image: "https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=1200&q=85", tone: "Textured cotton · relaxed collar" },
+  { id: "linen", name: "The Linen Shirt", type: "Quiet essentials", price: "From ₹799", image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=85", tone: "European linen · soft sand" },
+  { id: "sherwani", name: "The Emerald Sherwani", type: "Ceremonial edit", price: "From ₹2,499", image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=85", tone: "Woven jacquard · deep emerald" },
+  { id: "evening-suit", name: "The Evening Suit", type: "Formal tailoring", price: "From ₹2,899", image: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85", tone: "Midnight wool · soft ivory shirt" },
+  { id: "olive-waistcoat", name: "The Olive Waistcoat", type: "Occasion layer", price: "From ₹1,499", image: "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=1200&q=85", tone: "Deep olive wool · matte horn buttons" },
 ];
 
 const faqs = [
@@ -52,7 +52,7 @@ function App() {
             <div className="hero-actions"><button className="button button-dark" onClick={() => setShowForm(true)}>Begin your fitting <ArrowUpRight size={17} /></button><a className="text-link" href="#collection">Explore the edit <span>↓</span></a></div>
             <div className="hero-note"><span className="dot" /> Hand-finished in small batches <span className="rule" /> Secure WhatsApp ordering</div>
           </div>
-          <div className="hero-visual"><img src="/manus-storage/firoz-tailor-hero_4dbbffad.png" alt="Tailor wearing a charcoal bandhgala in a warm atelier" /><div className="hero-stamp"><span>FT</span><small>Made<br />for you</small></div><div className="hero-caption">01 / The Firoz signature</div></div>
+          <div className="hero-visual"><img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=1200&q=85" alt="Tailor wearing a charcoal bandhgala in a warm atelier" /><div className="hero-stamp"><span>FT</span><small>Made<br />for you</small></div><div className="hero-caption">01 / The Firoz signature</div></div>
         </section>
 
         <section className="intro-band section-pad"><div className="section-kicker">THE HOUSE NOTE</div><p>There is a difference between wearing a garment and <strong>feeling at home in it.</strong> Firoz Tailor brings the patience of traditional tailoring to a simpler, more personal way to order.</p><div className="intro-aside">One fitting.<br />Your proportions.<br />A better everyday.</div></section>
