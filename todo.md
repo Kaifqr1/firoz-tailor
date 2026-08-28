@@ -10,5 +10,5 @@
 - [ ] Save a final project checkpoint for user publishing through the UI.
 - [x] Refine the storefront composition and add related men’s outfit imagery across the collection.
 - [x] Verify the refined outfit visuals, mobile layout, and existing WhatsApp fitting flow, then push the update to GitHub.
-- [ ] Fix production image delivery on https://firoz-tailor.vercel.app/ so all outfit and hero images render.
-- [ ] Verify production image loading and push the fix to the Firoz Tailor GitHub repository.
+- [x] Fix production image delivery on https://firoz-tailor.vercel.app/ so all outfit and hero images render.
+- [x] Verify production image loading and push the fix to the Firoz Tailor GitHub repository.
